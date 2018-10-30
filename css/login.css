@@ -1,0 +1,240 @@
+@charset"utf-8";
+*{margin:0;padding:0}
+a{color:#2d374b;text-decoration:none} 
+a:hover{color:#cd0200;} 
+li{list-style:none} 
+img{border:0;vertical-align:middle}
+table{border-collapse:collapse;border-spacing:0} 
+ .background{
+     height:974px;
+     width:100%;
+     background-image:url(../img/banner22.jpg);
+     background-repeat:no-repeat;
+     background-size:100% 100%;
+ }
+ .biaozhi img{
+     height:50px;
+     width:200px;
+ }
+ .biaozhi{
+     height:50px;
+     width:500px;
+     font-size:25px;
+     color:#fff;
+     position: relative;
+     top:10px;
+     left:350px;
+ }
+ .title{
+     height:125px;
+     width:500px;
+     margin:10px auto;
+     display:flex;
+     line-height:2px;
+     justify-content:center;
+     flex-wrap:wrap;
+ }
+ .title img{
+    height:60px;
+    width:220px;
+}
+ .title span{
+     height:25px;
+     width:550px;
+     color:#fff;
+     font-size:18px;
+ }
+ .all{
+     height:500px;
+     width:400px;
+     background: #fff;
+     margin:0 auto;
+     padding:20px;
+ }
+ .first{
+     width:400px;
+     height:80px;
+     border-bottom:1px solid #eeeeee;
+     display:flex;
+     justify-content:space-between;
+     position:relative;
+     z-index:300;
+ }
+ .first-left{
+     height:80px;
+     width:200px;
+     display:flex;
+     justify-content:space-around;
+     align-items:flex-end;
+     z-index:100;
+ }
+ .first-left a{
+     height:50px;
+     width:70px;
+     display:block;
+     text-decoration:none;
+     color:#999999;
+ }
+ .first-left a:hover{
+     border-bottom:2px solid;
+     color:#000;
+ }
+ .first-right{
+     height:80px;
+     width:80px;
+     position:absolute;
+     left:1100px;
+     top:188px;
+     z-index:30000;
+ }
+ .first-right img{
+     height:80px;
+     width:80px;
+ }
+ .qrcod{
+     height:500px;
+     width:400px;
+     background:#fff;
+     position:relative;
+     left:-360px;
+     padding:20px;
+     top:-73px;
+     display:none;
+     z-index:3000;
+ }
+ .qrcod-left{
+     height:80px;
+     width:200px;
+     font-size:16px;
+     line-height:80px;
+ }
+ .qrcod-left img{
+     height:80px;
+     width:80px; 
+     position:relative;
+     left:209px;
+     top:-8px;
+ }
+ .qrcod-left img:hover{
+     transform:scale(0.8)
+ }
+ .xx{
+     height:20px;
+     width:192px;
+     margin:45px auto
+ }
+ .vv{
+     color:#999999;
+     width:130px;
+     display:block;
+     font-size:13px;
+     margin:0 145px 0;
+ }
+ .information{
+     height:270px;
+     width:400px;
+     padding-top:30px;     display:flex;
+     flex-direction:column;
+     justify-content:flex-start;
+     align-items:center;
+ }
+ .information input{
+     height:38px;
+     width:310px;
+     color:#000;
+     border:1px solid #dddddd;
+     border-radius:3px;
+     background:#f4f4f4;
+ }
+ .information input:nth-child(1):focus{
+     background:#fff;
+     outline:sandybrown;
+ }
+ .information input:nth-child(3):focus{
+     background:#fff;
+     outline:sandybrown;
+ }
+ .information input:nth-child(5){
+     outline:none;
+     height:42px;
+     width:310px;
+ }
+ .checkbox{
+     height:20px;
+     width:100px;
+     display:flex;
+     margin-top:5px;
+     position:relative;
+     left:-100px;
+     justify-content:space-between;
+ }
+ .checkbox input{
+     height:15px;
+     width:15px;
+ }
+ .checkbox span{
+     height:15px;
+     width:80px;
+     display:block;
+    font-size:13px;
+     line-height:20px;
+ }
+ .disanfang{
+     height:100px;
+     width:400px;
+ }
+ .disanfang p:nth-child(1){
+     color:#999999;
+     text-align:center;
+     width:400px;
+     margin:0 auto;
+ }
+.our{
+    height:50px;
+     width:150px;
+     margin:0 auto;
+     display:flex;
+     justify-content:space-between;
+     align-items:center;
+}
+ .a{
+     height:40px;
+     width:40px;
+     border-radius:20px;
+     float:left;
+     text-align:center;
+     line-height:36px;
+ }
+ .a:hover{
+     background:green;
+ }
+ .a img{
+     height:36px;
+     width:36px;
+ }
+ .b{
+     height:40px;
+     width:40px;
+     border-radius:20px;
+     float:left;
+ }
+ .b:hover{
+     background:red;
+ }
+ .b img{
+     height:40px;
+     width:40px;
+ }
+ .c{
+     height:40px;
+     width:40px;
+     border-radius:20px;
+     float:left;
+ }
+ .c:hover{
+     background:#3caae3;
+ }
+ .c img{
+     height:40px;
+     width:40px;
+ }

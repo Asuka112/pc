@@ -1,0 +1,321 @@
+@charset"utf-8";
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    color: #aca9b2;
+}
+.zhuce_s{
+    width:900px;
+    height: 580px;
+    /*border: 1px solid red;*/
+    margin: auto;
+    margin-top: 80px;
+}
+.zhuce_head{
+    width:100%;
+    height: 60px;
+    /*border: 1px solid red;*/
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.zhuce_head_left{
+    width:245px;
+    height: 58px;
+    /*border: 1px solid red;*/
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.zhuce_head_left img{
+    width:160px;
+    height: 160px;
+}
+.zhuce_head_left p{
+    font-size: 22px;
+    color: #000;
+}
+.zhuce_head_right{
+    width:260px;
+    height: 58px;
+    /*border: 1px solid red;*/
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 16px;
+}
+.zhuce_head_right a{
+    width:62%;
+    height: 18px;
+    /*border: 1px solid red;*/
+    border-right: 2px solid #d3d3d3;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    color: #000;
+}
+.zhuce_head_right a p{
+    color:#d36f16;
+}
+.zhuce_head_right a p:hover{
+    cursor: pointer;
+}
+.zhuce_head_right span{
+    width:35%;
+    height: 55px;
+    /*border: 1px solid red;*/
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    color:#d36f16;
+}
+.zhuce_head_right span{
+        cursor: pointer;
+}
+.zhucehuiyuan{
+    width:100%;
+    height: 75px;
+    /*border: 1px solid red;*/
+    background: #ffd100;
+    color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.contents{
+    width:100%;
+    height: 350px;
+    /*border: 1px solid red;*/
+    background: #fff;
+}
+.number_ph{
+    width:335px;
+    height: 45px;
+    border: 1px solid lightgray;
+    background: #f4f4f4;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #999999;
+    margin: auto;
+    margin-top: 40px;
+}
+.number_ph span{
+    width:68px;;
+    height: 45px;
+    /*border: 1px solid red;*/
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.number_ph span img{
+    width:13px;
+    height: 7px;
+}
+.number_ph span:hover{
+    cursor: pointer;
+}
+.number_ph p{
+    width:265px;
+    height: 45px;
+    /*border: 1px solid red;*/
+    background: #fff;
+    font-size: 15px;
+}
+.number_ph p input{
+    width:265px;
+    height: 42px;
+    font-size: 15px;
+    outline: none;
+    border: 0;
+}
+.huakuai{
+    width:338px;
+    height: 35px;
+    border: 1px solid lightgray;
+    margin: auto;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.huakuai p{
+    width: 40px;
+    height:100%;
+    border: 1px solid lightgray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.huakuai img{
+    width: 13px;
+    height:12px;
+    background: #fff;
+}
+.huakuai img:hover{
+    cursor: pointer;
+}
+.huakuai span{
+    width: 295px;
+    height:100%;
+    color: #000;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.jieshou{
+    width: 180px;
+    height:20px;
+    /*border: 1px solid red;*/
+    margin: auto;
+    margin-top: 25px;
+    margin-left: 280px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.jieshou input{
+    width: 21px;
+    height:21px;
+    border-radius:3px;
+    background: #ffd100;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.jieshou span{
+    width: 153px;
+    height:20px;
+    /*border: 1px solid red;*/
+    font-size: 12px;
+    color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.jieshou span a{
+    color: #d36f16;
+} 
+.jieshou:hover{
+    cursor: pointer;
+}
+.jieshou input:hover{
+    cursor: pointer;
+}
+.zhuce_zc{
+    width: 338px;
+    height:42px;
+    /*border: 1px solid red;*/
+    margin: auto;
+    margin-top: 22px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #bbbbbb;
+    background: #eeeeee;
+    font-size: 16px;
+}
+.zhuce_zhanghao{
+    width: 255px;
+    height:30px;
+    /*border: 1px solid red;*/
+    margin: auto;
+    margin-top: 30px;
+    margin-left: 280px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.zhuce_zhanghao p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    color: #000;
+    width:115px;
+    height: 20px;
+}
+.zhuce_pic{
+    width:130px;
+    height: 30px;
+    /*border: 1px solid #000;*/
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.zhuce_pic span{
+    width:30px;
+    height: 30px;
+    /*border: 1px solid red;*/
+    border-radius: 50%;
+    background: #dddddd;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.zhuce_pic span img{
+    width:17px;
+    height: 14px;
+}
+.zhuce_pic p{
+    width:30px;
+    height: 30px;
+    border-radius: 50%;
+    background: #dddddd;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.zhuce_pic p img{
+    width:18px;
+    height: 14px;
+}
+.zhuce_pic a{
+    width:30px;
+    height: 30px;
+    /*border: 1px solid #d36f16;*/
+    border-radius: 50%;
+    background: #dddddd;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.zhuce_pic a img{
+    width:11px;
+    height: 14px;
+}
+.zhuce_pic span:hover{
+    cursor: pointer;
+    background:lightgreen;
+}
+.zhuce_pic p:hover{
+    cursor: pointer;
+    background:#f509c6;
+}
+.zhuce_pic a:hover{
+    cursor: pointer;
+    background:#09c6f5;
+}
+.zhuce_footer{
+    width:905px;
+    height: 80px;
+    /*border: 1px solid red;*/
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 12px;
+    color: #000;
+    background: #eee;
+    border-radius: 5px;
+}
